@@ -1,6 +1,6 @@
 // conditional programming
 
-main() {
+void main() {
   var a = 100;
   var b = 50;
   if (a > 200) {
@@ -19,7 +19,39 @@ main() {
   } else {
     // all conditions are false
   }
-}
-
 
 // maybe add swich case in here
+  var grade = "A";
+  switch (grade) {
+    case "A":
+      {
+        print("Excellent");
+      }
+      break;
+
+    case "B":
+      {
+        print("Good");
+      }
+      break;
+
+    case "C":
+      {
+        print("Fair");
+      }
+      break;
+
+    case "D":
+      {
+        print("Poor");
+      }
+      break;
+
+    default:
+      {
+        print("Invalid choice");
+      }
+      break;
+  }
+}
+// you mighn't exactly need break for default case.

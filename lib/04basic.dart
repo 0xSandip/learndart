@@ -48,3 +48,5 @@ main() {
   print("Element at: ${names.elementAt(3)}");
   // displays the element at a specified index.
 }
+
+// use sets as it don't allow repitition in place of lists if you wan unique list of things.
